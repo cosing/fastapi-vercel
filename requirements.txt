@@ -4,59 +4,8 @@
 #
 #    pip-compile
 #
-anyio
-    # via
-    #   httpcore
-    #   starlette
-    #   watchfiles
-certifi
-    # via
-    #   httpcore
-    #   httpx
-click
-    # via uvicorn
-fastapi
-    # via fastapi-vercel (pyproject.toml)
-h11
-    # via
-    #   httpcore
-    #   uvicorn
-httpcore
-    # via httpx
-httptools
-    # via uvicorn
-httpx
-    # via fastapi-vercel (pyproject.toml)
-idna
-    # via
-    #   anyio
-    #   httpx
-jinja2
-    # via fastapi-vercel (pyproject.toml)
-markupsafe
-    # via jinja2
-pydantic
-    # via
-    #   fastapi
-    #   fastapi-vercel (pyproject.toml)
-python-dotenv
-    # via uvicorn
-pyyaml
-    # via uvicorn
-sniffio
-    # via
-    #   anyio
-    #   httpcore
-    #   httpx
-starlette
-    # via fastapi
 typing-extensions
-    # via pydantic
-uvicorn[standard]
-    # via fastapi-vercel (pyproject.toml)
-uvloop
-    # via uvicorn
-watchfiles
-    # via uvicorn
-websockets
-    # via uvicorn
+httpx
+fastapi
+jinja2
+
