@@ -6,6 +6,7 @@
 		{ "src": "/", "dest": "app.py" },
 		{ "src": "/docs", "dest": "app.py" },
 		{ "src": "/openapi.json", "dest": "app.py" },
-        { "src": "/.*", "dest": "app.py" }
+		{ "src": "/favicon.ico", "dest": "favicon.ico" },
+		{ "src": "/.*", "dest": "app.py" }
 	]
 }
